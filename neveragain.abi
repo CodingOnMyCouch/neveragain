@@ -1,0 +1,47 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Sun Feb 10 14:32:56 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "delhash",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "savehash",
+            "base": "",
+            "fields": [
+                {
+                    "name": "text_hash",
+                    "type": "string"
+                },
+                {
+                    "name": "image_hash",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "delhash",
+            "type": "delhash",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "savehash",
+            "type": "savehash",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}
